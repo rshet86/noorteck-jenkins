@@ -18,7 +18,7 @@ public class MercuryStepDef extends Constants {
 	public void navigateToApp() {
 		String url = "https://demo.guru99.com/test/newtours/index.php";
 		String key = "webdriver.chrome.driver";
-		String path = "C:\\Users\\NoorTeck\\OneDrive - glbtechexperts.com\\Desktop\\B7-Selenium\\chromedriver.exe"; 
+		String path = "C:\\Users\\HP-PC\\OneDrive\\Desktop\\B7-Selenium\\chromedriver.exe"; 
 		System.setProperty(key, path);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
